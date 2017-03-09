@@ -23,8 +23,7 @@
     [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=DragReleaseDelay"]];
 }
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     registerCallback();
 }
 
@@ -44,8 +43,7 @@ static int callback(int device, Finger *data, int nFingers, double timestamp, in
     return 0;
 }
 
-static void simulateMouseEvent(CGEventType eventType)
-{
+static void simulateMouseEvent(CGEventType eventType) {
     CGPoint mouseLocation = CGEventGetLocation(CGEventCreate(NULL));
     CGEventRef event = CGEventCreateMouseEvent(CGEventSourceCreate(kCGEventSourceStateHIDSystemState), eventType, mouseLocation, kCGMouseButtonLeft);
     CGEventPost(kCGHIDEventTap, event);
