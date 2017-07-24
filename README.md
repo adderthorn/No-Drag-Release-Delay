@@ -1,1 +1,1 @@
-[nodragreleasedelay.pravdomil.cz](https://nodragreleasedelay.pravdomil.cz)
+[nodragreleasedelay.pravdomil.com](https://nodragreleasedelay.pravdomil.com)
