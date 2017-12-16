@@ -30,7 +30,7 @@ typedef struct {
 typedef void *MTDeviceRef;
 typedef int (*MTContactCallbackFunction)(int,Finger*,int,double,int);
 
-MTDeviceRef MTDeviceCreateDefault();
+MTDeviceRef MTDeviceCreateDefault(void);
 void MTRegisterContactFrameCallback(MTDeviceRef, MTContactCallbackFunction);
 void MTDeviceStart(MTDeviceRef, int); // thanks comex
 int MTDeviceGetVersion(MTDeviceRef, int);
