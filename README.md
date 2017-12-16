@@ -7,4 +7,4 @@ Disable three finger drag and drop release delay on Mac trackpads.
 - next tree finger drag can be performed after short delay
 
 ## Downloads
-- [Latest version](latest.zip)
+- [Latest version](https://github.com/pravdomil/no-drag-release-delay/releases/download/v0.1/no-drag-release-delay.zip)
