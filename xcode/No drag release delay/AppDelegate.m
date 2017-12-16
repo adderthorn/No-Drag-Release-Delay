@@ -1,16 +1,16 @@
 //
 //  AppDelegate.m
-//  DragReleaseDelay
+//  No drag release delay
 //
-//  Created by Pravdomil Toman on 19.09.14.
+//  Created by Pravdomil Toman on 16/12/2017.
+//  Copyright © 2017 Pravdomil Toman. All rights reserved.
 //
-
 #import "AppDelegate.h"
 #import "MultiTouch.h"
 
 @implementation AppDelegate
 
-- (void) awakeFromNib {
+- (void)awakeFromNib {
     self.statusBar = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     
     self.statusBar.title = @"⥺";

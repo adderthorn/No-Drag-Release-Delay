@@ -1,8 +1,9 @@
 //
 //  AppDelegate.h
-//  DragReleaseDelay
+//  No drag release delay
 //
-//  Created by Pravdomil Toman on 19.09.14.
+//  Created by Pravdomil Toman on 16/12/2017.
+//  Copyright © 2017 Pravdomil Toman. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
