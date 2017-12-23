@@ -20,7 +20,7 @@
 }
 
 - (IBAction)donate:(id)sender {
-    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=DragReleaseDelay"]];
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=No%20drag%20release%20delay%20beer"]];
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
