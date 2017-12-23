@@ -27,7 +27,7 @@
                     </connections>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="cku-rd-Qn4"/>
-                <menuItem title="Exit" id="0XI-YP-Jup">
+                <menuItem title="Quit" id="0XI-YP-Jup">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="terminate:" target="-3" id="nlh-8N-PYC"/>
