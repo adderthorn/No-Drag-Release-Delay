@@ -2,7 +2,7 @@
 
 Disable three finger drag and drop release delay on Mac trackpads.
 
-[Download latest version](https://github.com/pravdomil/no-drag-release-delay/releases)
+**[Download latest version](https://github.com/pravdomil/no-drag-release-delay/releases)**
 
 ## Know issues
 - app seems to stop functioning after awakening from sleep
