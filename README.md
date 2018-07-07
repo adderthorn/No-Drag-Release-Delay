@@ -1,6 +1,6 @@
 <div align="center">
 
-# No drag release delay
+# No Drag Release Delay
 
 Disable three finger drag and drop release delay on Mac trackpads
 
